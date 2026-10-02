@@ -1,0 +1,4 @@
+telethon>=1.36.0
+rich>=13.7.0
+nltk>=3.8.1
+python-dotenv>=1.0.0

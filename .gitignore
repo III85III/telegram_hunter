@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and Secrets (CRITICAL SECURITY)
+.env
+.env.local
+sessions/
+*.session
+*.session-journal
+
+# Output & State files
+available_usernames.txt
+hunter_state.json
+
+# Environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
