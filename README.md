@@ -1,47 +1,80 @@
 <h1 align="center">⚡ TelegramHunter v3.0 ⚡</h1>
-<h3 align="center">High-Speed Real Dictionary & Alphanumeric Telegram Username Scanner</h3>
+<h3 align="center">High-Speed Real Dictionary (+40k Words) & Alphanumeric Telegram Username Scanner</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Telethon-MTProto-green?style=for-the-badge&logo=telegram&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLTK-40k%2B%20Words-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Security-Safe%20%26%20Zero--Leak-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Author-III85III-purple?style=for-the-badge" />
+  <a href="https://github.com/III85III/telegram_hunter/releases"><img src="https://img.shields.io/github/v/release/III85III/telegram_hunter?color=blue&style=for-the-badge&logo=github" alt="Release" /></a>
+  <a href="https://github.com/III85III/telegram_hunter/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" /></a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Telethon-MTProto-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telethon MTProto" />
+  <img src="https://img.shields.io/badge/NLTK-40k%2B%20Words-orange?style=for-the-badge" alt="NLTK Dictionary" />
+  <img src="https://img.shields.io/badge/Security-Safe%20%26%20Zero--Leak-red?style=for-the-badge" alt="Zero Leak Security" />
 </p>
+
+<p align="center">
+  <b>The fastest and most reliable open-source Telegram username availability scanner & hunter.</b><br>
+  Hunt authentic, high-value, 4-letter, 5-letter, and 6-letter Telegram handles using multi-session rotation and real English dictionaries.
+</p>
+
+---
+
+## 📑 Table of Contents / فهرست مطالب
+- [🌟 Overview / درباره پروژه](#-overview--درباره-پروژه)
+- [✨ Key Features / ویژگی‌های کلیدی](#-key-features--ویژگیهای-کلیدی)
+- [🖥️ Terminal Interface Preview / پیش‌نمایش محیط برنامه](#️-terminal-interface-preview--پیشنمایش-محیط-برنامه)
+- [🚀 Quick Start / نحوه نصب و اجرا](#-quick-start--نحوه-نصب-و-اجرا)
+- [📁 Project Structure / ساختار فایل‌ها](#-project-structure--ساختار-فایلها)
+- [🛡️ Anti-Flood & Rate Limiting / مدیریت لیمیت](#️-anti-flood--rate-limiting--مدیریت-لیمیت)
+- [🔒 Zero-Leak Security Guarantee / امنیت ۱۰۰٪](#-zero-leak-security-guarantee--امنیت-۱۰۰)
+- [🔍 SEO Search Keywords / کلیدواژه‌ها](#-seo-search-keywords--کلیدواژهها)
+- [📄 License](#-license)
 
 ---
 
 ## 🌟 Overview / درباره پروژه
 
-**TelegramHunter** is an advanced, high-performance Telegram username hunting and checking engine designed to scan **over 40,000+ real, meaningful English dictionary words** as well as 4-character, 5-character, and 6-character combinations.
+**TelegramHunter** is a state-of-the-art Telegram username hunting suite built on the native MTProto protocol via Telethon. Unlike conventional brute-force scripts that scan random, meaningless character combinations (`x8z1q`), TelegramHunter queries an official linguistic database (**NLTK English Corpus with over 40,000+ authentic words**).
 
-Unlike basic random string generators that test meaningless gibberish, TelegramHunter leverages official linguistic corpora (NLTK) to hunt **real, valuable, and branded Telegram handles**.
-
-پروژه **TelegramHunter** یک اسکنر سریع و هوشمند برای کشف یوزرنیم‌های آزاد و ارزشمند تلگرام است. این ابزار به جای تولید کاراکترهای رندوم و بی‌معنی، بیش از **۴۰,۰۰۰ کلمه واقعی و معنادار دیکشنری انگلیسی** (۴، ۵ و ۶ حرفی) را با سشن‌های شخصی شما بررسی و ثبت می‌کند.
+پروژه **TelegramHunter** پیشرفته‌ترین اسکنر و شکارچی آیدی‌های تلگرام بر بستر پروتکل رسمی MTProto است. این ابزار به جای تولید کلمات تصادفی و بی‌مصرف، بیش از **۴۰,۰۰۰ کلمه واقعی و معنادار دیکشنری انگلیسی** (شامل کلمات محبوب ۴، ۵ و ۶ حرفی) را با سشن‌های شخصی شما بررسی و یوزرنیم‌های آزاد را فوراً ذخیره می‌کند.
 
 ---
 
 ## ✨ Key Features / ویژگی‌های کلیدی
 
-- 📖 **Real Dictionary Hunting (+40k Words)**:
-  - 4-Letter English words (~4,000 words like `lion`, `echo`, `tech`)
-  - 5-Letter English words (~12,000 words like `cloud`, `alpha`, `cyber`)
-  - 6-Letter English words (~25,000+ words like `shield`, `matrix`, `photon`)
-  - Combined multi-length dictionary mode (+40,000 real words)
-- 🔤 **Alphanumeric & Pattern Modes**:
-  - Pure alphabet (a-z) combinations (4 and 5 characters)
-  - Alphanumeric (a-z0-9) combinations
-  - Custom file support (`wordlist.txt`)
-- 👥 **Multi-Session Rotation**:
-  - Drop multiple Telethon `.session` files into `sessions/` for parallel distributed checking.
-  - Interactive phone number login directly inside the console if you don't have a `.session` file yet.
-- 🛡️ **FloodWait Protection & Intelligent Throttling**:
-  - Automatically captures Telegram FloodWait RPC exceptions, sleeps gracefully, and rotates workers.
-- 💾 **Safe Auto-Resume & Results Logging**:
-  - Checkpoint tracking saves your exact progress in `hunter_state.json` — resume anytime after closing with `Ctrl+C`.
-  - Available usernames are saved instantly to `available_usernames.txt`.
-- 🔒 **Zero-Leak Architecture**:
-  - Strict `.gitignore` ensures that `.env`, `.session` files, and found usernames are NEVER committed to GitHub.
+- 📖 **Real English Dictionary Database (+40,000 Authentic Words)**:
+  - **4-Letter Words**: ~4,000 authentic English words (e.g., `lion`, `echo`, `tech`, `neon`, `flux`).
+  - **5-Letter Words**: ~12,000 authentic English words (e.g., `cloud`, `alpha`, `cyber`, `pulse`, `elite`).
+  - **6-Letter Words**: ~25,000+ authentic English words (e.g., `shield`, `matrix`, `photon`, `vector`).
+  - **All-in-One Mode**: Scans 4-to-6 character dictionary words consecutively (+40,000 words).
+- 🔤 **Alphanumeric & Pattern Generation**:
+  - Pure alphabet (a-z) exhaustive combinations (4 and 5 characters).
+  - Alphanumeric (letters + numbers) combinations.
+  - Custom dictionary support: Load any custom wordlist via `wordlist.txt`.
+- 👥 **Multi-Session Worker Rotation**:
+  - Place multiple Telethon `.session` files into `sessions/` for distributed parallel scanning.
+  - Interactive login option directly in the terminal if you don't have session files yet.
+- 🛡️ **Intelligent FloodWait Handling**:
+  - Automatically intercepts Telegram rate-limit exceptions (`FloodWaitError`), pauses gracefully, and switches workers without crashing.
+- 💾 **State Persistence & Checkpoints**:
+  - Automatic progress tracking saved in `hunter_state.json`. You can press `Ctrl+C` at any time and resume exactly where you left off.
+  - Valid available usernames are appended immediately to `available_usernames.txt`.
+
+---
+
+## 🖥️ Terminal Interface Preview / پیش‌نمایش محیط برنامه
+
+```text
+████████╗███████╗██╗     ███████╗ ██████╗ ██████╗  █████╗ ███╗   ███╗
+   ██║   █████╗  ██║     █████╗  ██║  ███╗██████╔╝███████║██╔████╔██║
+   ██║   ███████╗███████╗███████╗╚██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║
+██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗ 
+███████║██║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+   ⚡ TelegramHunter v3.0 | Real Words & Multi-Session Scanner | By III85III ⚡
+
+[12,410/40,215] @pulse          -> TAKEN   | 2.15 req/s
+[12,411/40,215] @cyber          -> TAKEN   | 2.15 req/s
+🔥 [AVAILABLE FOUND] @neonflux        | Index: 12,412/40,215 | Saved to file!
+```
 
 ---
 
@@ -49,25 +82,26 @@ Unlike basic random string generators that test meaningless gibberish, TelegramH
 
 ### 1. Requirements
 - Python 3.10 or higher
-- Windows 10/11 or Linux / macOS
+- Operating System: Windows 10/11, Linux, or macOS
 
-### 2. Automatic Installation (Windows)
-Simply run the automatic installer:
+### 2. Automatic Setup (Windows)
+Run the automated installer:
 ```cmd
 setup.bat
 ```
-This will create a virtual environment, install all dependencies, and download the NLTK English words corpus.
+*Creates the virtual environment, installs all dependencies, and downloads the 40k+ NLTK word corpus automatically.*
 
 ### 3. Launching
-Run:
 ```cmd
 run.bat
 ```
 
-### 4. Manual Installation (Linux / macOS / Manual)
+### 4. Manual Setup (Linux / macOS)
 ```bash
+git clone https://github.com/III85III/telegram_hunter.git
+cd telegram_hunter
 python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source venv/bin/activate
 pip install -r requirements.txt
 python3 -c "import nltk; nltk.download('words')"
 python3 hunter.py
@@ -79,25 +113,44 @@ python3 hunter.py
 
 ```
 TelegramHunter/
-├── sessions/               # Place your Telethon .session files here (Git-ignored)
+├── sessions/               # Place your Telethon *.session files here (100% Git-ignored)
 ├── hunter.py               # Main unified scanner engine with Rich CLI
-├── requirements.txt        # Dependencies (telethon, rich, nltk, python-dotenv)
+├── requirements.txt        # Production dependencies (telethon, rich, nltk, python-dotenv)
 ├── .env.example            # Optional custom API_ID / API_HASH template
-├── .gitignore              # Absolute security filter (no leaks)
-├── setup.bat               # One-click automated setup
-├── run.bat                 # One-click launcher
-└── README.md               # Project documentation
+├── .gitignore              # Absolute security filter (prevent session & result leaks)
+├── setup.bat               # Automated one-click setup script
+├── run.bat                 # Automated one-click launcher
+├── LICENSE                 # MIT License
+└── README.md               # Documentation & Guide
 ```
 
 ---
 
-## 🔒 Security Notice / نکات امنیتی
+## 🛡️ Anti-Flood & Rate Limiting / مدیریت لیمیت
 
-- **Never share or commit files from the `sessions/` directory.** They contain full access to your Telegram accounts.
-- This repository has a strict `.gitignore` pre-configured to keep your sessions, tokens, and scanned output 100% private.
-- Always use dedicated accounts and sensible rate limits (recommended delay: 1.5 - 3.0 seconds per worker) to prevent temporary Telegram rate limits.
+To maximize scanning lifespan and avoid Telegram rate limits:
+1. Recommended request delay: **1.5 to 3.0 seconds** per account.
+2. Distribute workload across multiple accounts by placing multiple `.session` files in the `sessions/` folder.
+3. If Telegram returns a `FloodWait` cooldown, TelegramHunter sleeps automatically for the requested duration.
 
 ---
 
-## 👤 Author
+## 🔒 Zero-Leak Security Guarantee / امنیت ۱۰۰٪
+
+- **Zero-Logging of Sessions**: The `.gitignore` is hard-configured to ignore all `.session`, `.env`, and `available_usernames.txt` files.
+- **Client-Side MTProto**: All API communications connect directly from your machine to Telegram official MTProto gateways. No external proxy, tracking, or telemetry is used.
+
+---
+
+## 🔍 SEO Search Keywords / کلیدواژه‌ها
+
+`telegram username checker` · `telegram username hunter` · `telegram username scanner` · `telethon username availability` · `telegram 4 letter usernames` · `telegram 5 letter usernames` · `telegram dictionary checker` · `telegram osint tools` · `telegram account checker` · `telegram tools python` · `telegram handle checker` · `check telegram username available`
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) — see the LICENSE file for details.
+
 Developed with ❤️ by **[III85III](https://github.com/III85III)**
+
