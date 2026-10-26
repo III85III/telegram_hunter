@@ -1,3 +1,28 @@
+<!-- language-selector:start -->
+<p align="center">
+<a href="README.md" title="English"><img src="docs/i18n/flags/gb.svg" width="30" height="20" alt="English"></a>
+<a href="docs/i18n/README.fa.md" title="فارسی"><img src="docs/i18n/flags/ir.svg" width="30" height="20" alt="فارسی"></a>
+<a href="docs/i18n/README.es.md" title="Español"><img src="docs/i18n/flags/es.svg" width="30" height="20" alt="Español"></a>
+<a href="docs/i18n/README.fr.md" title="Français"><img src="docs/i18n/flags/fr.svg" width="30" height="20" alt="Français"></a>
+<a href="docs/i18n/README.de.md" title="Deutsch"><img src="docs/i18n/flags/de.svg" width="30" height="20" alt="Deutsch"></a>
+<a href="docs/i18n/README.pt-BR.md" title="Português"><img src="docs/i18n/flags/br.svg" width="30" height="20" alt="Português"></a>
+<a href="docs/i18n/README.it.md" title="Italiano"><img src="docs/i18n/flags/it.svg" width="30" height="20" alt="Italiano"></a>
+<a href="docs/i18n/README.ru.md" title="Русский"><img src="docs/i18n/flags/ru.svg" width="30" height="20" alt="Русский"></a>
+<a href="docs/i18n/README.zh-CN.md" title="简体中文"><img src="docs/i18n/flags/cn.svg" width="30" height="20" alt="简体中文"></a>
+<a href="docs/i18n/README.ja.md" title="日本語"><img src="docs/i18n/flags/jp.svg" width="30" height="20" alt="日本語"></a>
+<a href="docs/i18n/README.ko.md" title="한국어"><img src="docs/i18n/flags/kr.svg" width="30" height="20" alt="한국어"></a>
+<a href="docs/i18n/README.ar.md" title="العربية"><img src="docs/i18n/flags/sa.svg" width="30" height="20" alt="العربية"></a>
+<a href="docs/i18n/README.hi.md" title="हिन्दी"><img src="docs/i18n/flags/in.svg" width="30" height="20" alt="हिन्दी"></a>
+<a href="docs/i18n/README.bn.md" title="বাংলা"><img src="docs/i18n/flags/bd.svg" width="30" height="20" alt="বাংলা"></a>
+<a href="docs/i18n/README.ur.md" title="اردو"><img src="docs/i18n/flags/pk.svg" width="30" height="20" alt="اردو"></a>
+<a href="docs/i18n/README.tr.md" title="Türkçe"><img src="docs/i18n/flags/tr.svg" width="30" height="20" alt="Türkçe"></a>
+<a href="docs/i18n/README.id.md" title="Bahasa Indonesia"><img src="docs/i18n/flags/id.svg" width="30" height="20" alt="Bahasa Indonesia"></a>
+<a href="docs/i18n/README.vi.md" title="Tiếng Việt"><img src="docs/i18n/flags/vn.svg" width="30" height="20" alt="Tiếng Việt"></a>
+<a href="docs/i18n/README.th.md" title="ไทย"><img src="docs/i18n/flags/th.svg" width="30" height="20" alt="ไทย"></a>
+<a href="docs/i18n/README.pl.md" title="Polski"><img src="docs/i18n/flags/pl.svg" width="30" height="20" alt="Polski"></a>
+</p>
+<!-- language-selector:end -->
+
 <h1 align="center">⚡ TelegramHunter v3.0 ⚡</h1>
 <h3 align="center">High-Speed Real Dictionary (+40k Words) & Alphanumeric Telegram Username Scanner</h3>
 
